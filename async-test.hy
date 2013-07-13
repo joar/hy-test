@@ -8,7 +8,7 @@
 
 (defn sleep-then-print [&rest args &optional pid]
   "
-  Sleep (gevent) for somethime between 0.1 to 5 seconds
+  Sleep (gevent) for 0.1 to 5 seconds
   Args
    - pid: The process id
   "
