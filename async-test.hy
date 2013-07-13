@@ -1,8 +1,8 @@
-(;; gevent greenlets
+;; gevent greenlets
 ;; (c) 2013 Joar Wandborg, licenced under CC0
 ;; <http://creativecommons.org/publicdomain/zero/1.0/>
 
-import [gevent [joinall spawn sleep]])
+(import [gevent [joinall spawn sleep]])
 (import [random [randint]])
 
 (defn sleep-then-print [&rest args &optional pid]
