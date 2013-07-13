@@ -1,6 +1,7 @@
 ;; gevent greenlets
 ;; (c) 2013 Joar Wandborg, licenced under CC0
 ;; <http://creativecommons.org/publicdomain/zero/1.0/>
+;; vim: set ts=2 softts=2 sw=2 expandtab
 
 (import [gevent [joinall spawn sleep]])
 (import [random [randint]])
