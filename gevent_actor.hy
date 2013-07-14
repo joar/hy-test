@@ -1,3 +1,6 @@
+;; Implementation of http://sdiehl.github.io/gevent-tutorial/#actors in hy
+;;; (c) 2013 Joar Wandborg, licenced under CC0
+;; <http://creativecommons.org/publicdomain/zero/1.0/>
 (import gevent)
 (import [gevent [Greenlet]])
 (import [gevent.queue [Queue]])
